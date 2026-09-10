@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Happy Birthday Zaki ❤️</title>
+    <title>Happy Birthday Zaki 🤍</title>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * {
@@ -38,32 +38,32 @@
         .loading-gift-icon {
             font-size: 80px; margin-bottom: 25px;
             animation: bounceGift 2s ease-in-out infinite;
-            filter: drop-shadow(0 0 20px rgba(244, 63, 94, 0.4));
+            filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.4));
         }
         @keyframes bounceGift { 0%,100%{transform:translateY(0) scale(1);} 50%{transform:translateY(-15px) scale(1.08);} }
 
         .loading-spinner-ring {
             position: absolute; width:110px; height:110px;
-            border: 3px solid rgba(244,63,94,0.2); border-top: 3px solid #f43f5e;
+            border: 3px solid rgba(255,255,255,0.2); border-top: 3px solid #ffffff;
             border-radius: 50%; animation: spin 1.2s linear infinite;
         }
         @keyframes spin { to { transform: rotate(360deg); } }
 
         .loading-badge-first {
             display:inline-block; padding:6px 14px; background: rgba(59,7,29,0.8);
-            border:1px solid rgba(244,63,94,0.3); border-radius:20px; font-size:11px; color:#fda4af;
+            border:1px solid rgba(255,255,255,0.3); border-radius:20px; font-size:11px; color:#ffffff;
             margin-bottom:12px; text-transform:uppercase; letter-spacing:1.5px; font-weight:700;
         }
         .loading-title-first { font-family:'Outfit',sans-serif; font-size:24px; font-weight:700; color:#fce7f3; margin-bottom:8px; }
         .loading-subtitle-first { font-size:13.5px; color:#f472b6; margin-bottom:25px; line-height:1.5; }
-        .percentage-text { font-family:'Outfit',sans-serif; font-size:13px; color:#f43f5e; font-weight:700; margin-bottom:12px; }
-        .progress-track { width:100%; max-width:300px; height:8px; background: rgba(59,7,29,0.8); border-radius:10px; overflow:hidden; margin-bottom:25px; border:1px solid rgba(244,63,94,0.2); }
-        .progress-fill { width:0%; height:100%; background: linear-gradient(90deg,#f43f5e,#fb7185); border-radius:10px; transition: width 0.1s linear; }
+        .percentage-text { font-family:'Outfit',sans-serif; font-size:13px; color:#ffffff; font-weight:700; margin-bottom:12px; }
+        .progress-track { width:100%; max-width:300px; height:8px; background: rgba(59,7,29,0.8); border-radius:10px; overflow:hidden; margin-bottom:25px; border:1px solid rgba(255,255,255,0.2); }
+        .progress-fill { width:0%; height:100%; background: linear-gradient(90deg,#ffffff,#e2e8f0); border-radius:10px; transition: width 0.1s linear; }
 
         .start-web-btn {
-            background: linear-gradient(135deg,#e11d48,#be123c); color:#fff; border:none; padding:14px 28px;
+            background: linear-gradient(135deg,#ffffff,#cbd5e1); color:#140a18; border:none; padding:14px 28px;
             border-radius:30px; font-weight:700; font-size:14px; cursor:pointer;
-            box-shadow: 0 8px 25px rgba(244,63,94,0.4);
+            box-shadow: 0 8px 25px rgba(255,255,255,0.3);
             opacity:0; transform: translateY(20px); pointer-events:none;
             transition: all 0.4s cubic-bezier(0.175,0.885,0.32,1.275);
         }
@@ -72,8 +72,8 @@
         .bg-glow {
             position: fixed; top:0; left:0; width:100%; height:100%; pointer-events:none;
             background:
-                radial-gradient(circle at 15% 15%, rgba(244,63,94,0.1) 0%, transparent 45%),
-                radial-gradient(circle at 85% 85%, rgba(190,18,60,0.1) 0%, transparent 45%);
+                radial-gradient(circle at 15% 15%, rgba(255,255,255,0.07) 0%, transparent 45%),
+                radial-gradient(circle at 85% 85%, rgba(255,255,255,0.07) 0%, transparent 45%);
             z-index:1;
         }
 
@@ -91,10 +91,10 @@
             background: linear-gradient(180deg,#140a18 0%,#1f1124 100%);
             box-shadow: 0 0 50px rgba(0,0,0,0.7);
             display:flex; flex-direction:column; overflow:hidden;
-            border: 1px solid rgba(244,63,94,0.25);
+            border: 1px solid rgba(255,255,255,0.2);
         }
         @media (min-width:441px) {
-            .app-container { height:92dvh; border-radius:36px; border:2px solid rgba(244,63,94,0.35); }
+            .app-container { height:92dvh; border-radius:36px; border:2px solid rgba(255,255,255,0.25); }
         }
 
         .screen {
@@ -107,46 +107,46 @@
         .envelope-container { cursor:pointer; padding:20px; transition: transform 0.3s ease; animation: floatEnv 3s ease-in-out infinite; }
         .envelope-container:hover { transform: scale(1.1); }
         @keyframes floatEnv { 0%,100%{transform:translateY(0);} 50%{transform:translateY(-12px);} }
-        .envelope-box { font-size:95px; filter: drop-shadow(0 15px 25px rgba(244,63,94,0.4)); }
+        .envelope-box { font-size:95px; filter: drop-shadow(0 15px 25px rgba(255,255,255,0.3)); }
 
-        .lock-icon { font-size:44px; color:#f43f5e; margin-bottom:14px; animation: float 3s ease-in-out infinite; }
+        .lock-icon { font-size:44px; color:#ffffff; margin-bottom:14px; animation: float 3s ease-in-out infinite; }
         @keyframes float { 0%,100%{transform:translateY(0);} 50%{transform:translateY(-10px);} }
         .lock-title { font-family:'Outfit',sans-serif; font-size:26px; font-weight:700; color:#fce7f3; margin-bottom:6px; }
         .lock-subtitle { font-size:13px; color:#f472b6; margin-bottom:24px; }
 
         .pin-dots { display:flex; gap:12px; margin-bottom:24px; }
-        .pin-dot { width:14px; height:14px; border-radius:50%; border:2px solid #f43f5e; background:transparent; transition: all 0.3s ease; }
-        .pin-dot.filled { background:#f43f5e; border-color:#f43f5e; box-shadow: 0 0 12px rgba(244,63,94,0.8); transform: scale(1.15); }
+        .pin-dot { width:14px; height:14px; border-radius:50%; border:2px solid #ffffff; background:transparent; transition: all 0.3s ease; }
+        .pin-dot.filled { background:#ffffff; border-color:#ffffff; box-shadow: 0 0 12px rgba(255,255,255,0.8); transform: scale(1.15); }
 
         .numpad { display:grid; grid-template-columns: repeat(3,68px); gap:12px; }
         .num-btn {
-            width:68px; height:68px; border-radius:50%; border:1px solid rgba(244,63,94,0.25);
+            width:68px; height:68px; border-radius:50%; border:1px solid rgba(255,255,255,0.25);
             background: rgba(45,12,30,0.7); color:#fce7f3; font-size:20px; font-weight:600;
             display:flex; align-items:center; justify-content:center; cursor:pointer;
             box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: all 0.2s ease;
         }
-        .num-btn:active { background:#f43f5e; color:#fff; transform: scale(0.9); }
+        .num-btn:active { background:#ffffff; color:#140a18; transform: scale(0.9); }
 
-        .game-area { width:100%; height:280px; background: rgba(45,12,30,0.5); border:2px dashed rgba(244,63,94,0.4); border-radius:20px; position:relative; overflow:hidden; margin-bottom:16px; }
+        .game-area { width:100%; height:280px; background: rgba(45,12,30,0.5); border:2px dashed rgba(255,255,255,0.3); border-radius:20px; position:relative; overflow:hidden; margin-bottom:16px; }
         .falling-item { position:absolute; font-size:35px; cursor:pointer; user-select:none; animation: fallDown linear infinite; }
         @keyframes fallDown { from{top:-50px;} to{top:300px;} }
-        .game-score { font-size:15px; font-weight:700; color:#f43f5e; margin-bottom:14px; }
+        .game-score { font-size:15px; font-weight:700; color:#ffffff; margin-bottom:14px; }
 
         .cake-reveal-container { cursor:pointer; padding:20px; transition: transform 0.3s cubic-bezier(0.175,0.885,0.32,1.275); }
         .cake-reveal-container:hover { transform: scale(1.12); }
-        .big-animated-cake { font-size:110px; filter: drop-shadow(0 0 25px rgba(244,63,94,0.4)); animation: cakePulse 1.8s ease-in-out infinite; }
+        .big-animated-cake { font-size:110px; filter: drop-shadow(0 0 25px rgba(255,255,255,0.3)); animation: cakePulse 1.8s ease-in-out infinite; }
         @keyframes cakePulse { 0%,100%{transform:scale(1) translateY(0);} 50%{transform:scale(1.08) translateY(-10px);} }
 
         .celebration-banner-box {
             background: linear-gradient(160deg, rgba(45,12,30,0.85), rgba(20,10,24,0.9));
-            border: 1.5px solid rgba(244,63,94,0.35);
+            border: 1.5px solid rgba(255,255,255,0.25);
             border-radius: 28px; padding: 34px 22px; width:100%; max-width:360px; text-align:center;
             box-shadow: 0 10px 26px rgba(0,0,0,0.5);
             margin-bottom: 26px;
         }
         .celebration-title {
             font-family:'Outfit',sans-serif; font-size:15px; font-weight:700; letter-spacing:2px;
-            text-transform:uppercase; color:#f43f5e; margin-bottom:8px;
+            text-transform:uppercase; color:#ffffff; margin-bottom:8px;
         }
         .celebration-name {
             font-family:'Outfit',sans-serif; font-size:34px; font-weight:800; color:#fce7f3; margin-bottom:14px;
@@ -154,20 +154,20 @@
         .celebration-desc { font-size:13.5px; color:#f472b6; line-height:1.65; }
 
         .wish-screen-card {
-            background: rgba(45,12,30,0.8); border:1px solid rgba(244,63,94,0.3); border-radius:28px;
+            background: rgba(45,12,30,0.8); border:1px solid rgba(255,255,255,0.25); border-radius:28px;
             padding:28px 22px; width:100%; max-width:360px; text-align:left;
             box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin-bottom:24px; position:relative;
         }
         .wish-screen-card::after { content:'💌✨'; position:absolute; top:-18px; right:25px; font-size:26px; }
         .wish-screen-content { font-size:13px; line-height:1.8; color:#fbcfe8; max-height: 48vh; overflow-y: auto; padding-right: 4px; }
         .wish-screen-content p { margin-bottom:12px; }
-        .wish-signature { text-align:right; margin-top:16px; font-weight:700; color:#f43f5e; font-size:14px; }
+        .wish-signature { text-align:right; margin-top:16px; font-weight:700; color:#ffffff; font-size:14px; }
 
         .nav-btn-container { width:100%; max-width:360px; }
         .primary-btn {
-            background: linear-gradient(135deg,#e11d48,#be123c); color:#fff; border:none; padding:15px 22px;
+            background: linear-gradient(135deg,#ffffff,#cbd5e1); color:#140a18; border:none; padding:15px 22px;
             border-radius:30px; font-weight:700; font-size:14px; cursor:pointer;
-            box-shadow: 0 6px 20px rgba(244,63,94,0.4); width:100%; transition: transform 0.2s, opacity 0.2s;
+            box-shadow: 0 6px 20px rgba(255,255,255,0.25); width:100%; transition: transform 0.2s, opacity 0.2s;
         }
         .primary-btn:active { transform: scale(0.97); opacity:0.9; }
 
@@ -190,19 +190,19 @@
         .section-header { text-align:center; margin-bottom:20px; }
         .badge {
             display:inline-block; padding:6px 14px; background: rgba(59,7,29,0.9);
-            border:1px solid rgba(244,63,94,0.3); border-radius:20px; font-size:11px; color:#fda4af;
+            border:1px solid rgba(255,255,255,0.25); border-radius:20px; font-size:11px; color:#ffffff;
             margin-bottom:10px; text-transform:uppercase; letter-spacing:1.2px; font-weight:700;
         }
 
         .music-player-card {
-            background: rgba(45,12,30,0.8); border:1px solid rgba(244,63,94,0.3); border-radius:20px;
+            background: rgba(45,12,30,0.8); border:1px solid rgba(255,255,255,0.25); border-radius:20px;
             padding:16px 20px; margin-bottom:20px; display:flex; align-items:center; gap:16px;
             box-shadow: 0 8px 20px rgba(0,0,0,0.4);
         }
         .vinyl-disc {
-            width:50px; height:50px; background:#2d0c1e; border:3px solid #f43f5e; border-radius:50%;
-            display:flex; align-items:center; justify-content:center; font-size:22px; color:#f43f5e;
-            flex-shrink:0; box-shadow: 0 0 10px rgba(244,63,94,0.4);
+            width:50px; height:50px; background:#2d0c1e; border:3px solid #ffffff; border-radius:50%;
+            display:flex; align-items:center; justify-content:center; font-size:22px; color:#ffffff;
+            flex-shrink:0; box-shadow: 0 0 10px rgba(255,255,255,0.3);
         }
         .vinyl-disc.playing { animation: spinVinyl 3s linear infinite; }
         @keyframes spinVinyl { to{ transform: rotate(360deg); } }
@@ -210,57 +210,47 @@
         .music-title { font-size:13.5px; font-weight:700; color:#fce7f3; margin-bottom:2px; }
         .music-subtitle { font-size:11px; color:#f472b6; }
         .play-music-btn {
-            background: linear-gradient(135deg,#e11d48,#be123c); color:#fff; border:none; width:42px; height:42px;
+            background: linear-gradient(135deg,#ffffff,#cbd5e1); color:#140a18; border:none; width:42px; height:42px;
             border-radius:50%; cursor:pointer; display:flex; align-items:center; justify-content:center;
-            font-size:16px; font-weight:bold; box-shadow: 0 0 12px rgba(244,63,94,0.4);
+            font-size:16px; font-weight:bold; box-shadow: 0 0 12px rgba(255,255,255,0.3);
         }
 
         .card-box {
-            background: rgba(45,12,30,0.8); border:1px solid rgba(244,63,94,0.3); border-radius:24px;
+            background: rgba(45,12,30,0.8); border:1px solid rgba(255,255,255,0.25); border-radius:24px;
             padding:20px; box-shadow: 0 8px 25px rgba(0,0,0,0.5);
         }
         .vibe-grid { display:grid; grid-template-columns: repeat(2,1fr); gap:10px; margin-top:14px; }
         .vibe-btn {
-            background:#2d0c1e; border:1px solid rgba(244,63,94,0.35); padding:12px; border-radius:14px;
+            background:#2d0c1e; border:1px solid rgba(255,255,255,0.25); padding:12px; border-radius:14px;
             color:#fce7f3; font-size:12.5px; font-weight:600; cursor:pointer; transition: all 0.2s; text-align:center;
         }
-        .vibe-btn:hover, .vibe-btn:active { background:#f43f5e; color:#fff; border-color:#f43f5e; }
+        .vibe-btn:hover, .vibe-btn:active { background:#ffffff; color:#140a18; border-color:#ffffff; }
         .interactive-box {
-            background:#2d0c1e; border:1px solid rgba(244,63,94,0.35); border-radius:16px; padding:16px;
+            background:#2d0c1e; border:1px solid rgba(255,255,255,0.25); border-radius:16px; padding:16px;
             font-size:13px; color:#fbcfe8; min-height:65px; display:flex; align-items:center; justify-content:center;
             margin-top:14px; text-align:center; line-height:1.5; font-weight:500;
         }
 
-        .polaroid-grid { display:grid; grid-template-columns: 1fr; gap:16px; max-height: 52vh; overflow-y:auto; padding-right:2px; }
-        .polaroid {
-            background:#2d0c1e; padding:12px 12px 28px; border-radius:10px; color:#fce7f3;
-            border: 1px solid rgba(244,63,94,0.25);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.5); transform: rotate(-1deg);
-        }
-        .polaroid:nth-child(even) { transform: rotate(1.5deg); }
-        .polaroid img { width:100%; height:150px; object-fit:cover; border-radius:6px; }
-        .polaroid-caption { margin-top:10px; font-family:'Outfit',sans-serif; font-size:13px; text-align:center; color:#fda4af; font-weight:600; }
-
         .jar-wrap { display:flex; flex-direction:column; align-items:center; margin-bottom: 12px; }
         .jar-counter {
-            font-family:'Outfit',sans-serif; font-size:12px; font-weight:700; color:#fda4af;
+            font-family:'Outfit',sans-serif; font-size:12px; font-weight:700; color:#ffffff;
             background: rgba(59,7,29,0.9); padding:4px 12px; border-radius:20px; margin-bottom:10px;
-            border: 1px solid rgba(244,63,94,0.3); box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+            border: 1px solid rgba(255,255,255,0.25); box-shadow: 0 2px 8px rgba(0,0,0,0.3);
         }
         .jar-visual { position:relative; width:160px; height:185px; margin: 0 auto; filter: drop-shadow(0 12px 20px rgba(0,0,0,0.6)); }
         .jar-lid { 
-            width:64px; height:14px; background: linear-gradient(135deg,#e11d48,#be123c); 
+            width:64px; height:14px; background: linear-gradient(135deg,#ffffff,#cbd5e1); 
             border-radius:8px 8px 3px 3px; margin:0 auto; position:relative; z-index:3; 
             box-shadow: 0 2px 5px rgba(0,0,0,0.3); 
         }
         .jar-lid::after {
-            content:'❤️'; position:absolute; top:-12px; left:50%; transform:translateX(-50%); font-size:14px;
+            content:'🤍'; position:absolute; top:-12px; left:50%; transform:translateX(-50%); font-size:14px;
         }
-        .jar-neck { width:46px; height:8px; background: rgba(244,63,94,0.4); margin:0 auto; position:relative; z-index:2; border-radius: 2px; }
+        .jar-neck { width:46px; height:8px; background: rgba(255,255,255,0.3); margin:0 auto; position:relative; z-index:2; border-radius: 2px; }
         .jar-body {
             width:160px; height:160px; margin-top:-2px;
             background: linear-gradient(160deg, rgba(45,12,30,0.7), rgba(20,10,24,0.8));
-            border: 2px solid rgba(244,63,94,0.4); border-radius: 20px 20px 48px 48px;
+            border: 2px solid rgba(255,255,255,0.3); border-radius: 20px 20px 48px 48px;
             position:relative; overflow:hidden;
             display:flex; flex-direction: column-reverse; align-items:center; gap:4px; padding:10px 8px;
             backdrop-filter: blur(4px);
@@ -275,35 +265,32 @@
             font-weight:600; text-align:center; width: 85%; z-index:2; opacity: 0.8;
         }
         .jar-paper {
-            background:#2d0c1e; color:#fda4af; padding:4px 10px; border-radius:10px; font-size:10px; font-weight:700;
+            background:#2d0c1e; color:#ffffff; padding:4px 10px; border-radius:10px; font-size:10px; font-weight:700;
             box-shadow: 0 2px 5px rgba(0,0,0,0.3); animation: dropIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
             width: 90%; text-align: center; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; z-index:2;
-            border: 1px solid rgba(244,63,94,0.35);
+            border: 1px solid rgba(255,255,255,0.3);
             transform: rotate(calc(-2deg + 4deg * var(--rand, 0.5)));
         }
-        .jar-paper:nth-child(odd){ background:#2d0c1e; color: #fda4af; }
-        .jar-paper:nth-child(even){ background:#1f1124; color: #fbcfe8; }
-        .jar-paper:nth-child(3n){ background:#3b071d; color: #f43f5e; }
         @keyframes dropIn { from{ transform: translateY(-30px) scale(0.4) rotate(0deg); opacity:0; } to{ transform: translateY(0) scale(1) rotate(0deg); opacity:1; } }
 
         .input-custom {
-            width:100%; background:#2d0c1e; border:1px solid rgba(244,63,94,0.35); padding:10px 14px; border-radius:12px;
+            width:100%; background:#2d0c1e; border:1px solid rgba(255,255,255,0.25); padding:10px 14px; border-radius:12px;
             color:#fce7f3; font-size:12.5px; margin-bottom:8px; outline:none;
         }
-        .input-custom:focus { border-color:#f43f5e; box-shadow: 0 0 8px rgba(244,63,94,0.4); }
+        .input-custom:focus { border-color:#ffffff; box-shadow: 0 0 8px rgba(255,255,255,0.3); }
 
-        .wish-list { margin-top:10px; max-height:18vh; overflow-y:auto; display:flex; flex-direction:column; gap:6px; text-align:left; }
+        .wish-list { margin-top:10px; max-height:16vh; overflow-y:auto; display:flex; flex-direction:column; gap:6px; text-align:left; }
         .downloadable-wish-card {
-            background: linear-gradient(135deg,#2d0c1e,#1f1124); border:1.5px solid rgba(244,63,94,0.35); padding:10px 12px;
-            border-radius:12px; font-size:12px; color:#fce7f3; box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            background: linear-gradient(135deg,#2d0c1e,#1f1124); border:1.5px solid rgba(255,255,255,0.25); padding:8px 12px;
+            border-radius:12px; font-size:11.5px; color:#fce7f3; box-shadow: 0 4px 12px rgba(0,0,0,0.3);
             display: flex; align-items: center; justify-content: space-between; gap: 8px;
         }
         .wish-card-text { line-height:1.4; font-weight:700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex-grow: 1; }
-        .download-single-btn { background: linear-gradient(135deg,#e11d48,#be123c); color:#fff; border:none; padding:6px 12px; border-radius:8px; font-size:10px; font-weight:700; cursor:pointer; flex-shrink: 0; }
+        .download-single-btn { background: linear-gradient(135deg,#ffffff,#cbd5e1); color:#140a18; border:none; padding:5px 10px; border-radius:6px; font-size:9.5px; font-weight:700; cursor:pointer; flex-shrink: 0; }
 
         .toast-notif {
             position:fixed; bottom:30px; left:50%; transform: translateX(-50%) translateY(100px);
-            background: linear-gradient(135deg,#e11d48,#be123c); color:#fff; padding:12px 24px; border-radius:30px;
+            background: linear-gradient(135deg,#ffffff,#cbd5e1); color:#140a18; padding:12px 24px; border-radius:30px;
             font-size:13.5px; font-weight:700; box-shadow: 0 10px 25px rgba(0,0,0,0.6); z-index:999;
             opacity:0; transition: all 0.4s cubic-bezier(0.175,0.885,0.32,1.275); pointer-events:none; text-align:center;
         }
@@ -318,14 +305,14 @@
     <div id="loadingScreen">
         <div style="position:relative; margin-bottom:25px;">
             <div class="loading-spinner-ring"></div>
-            <div class="loading-gift-icon">❤️</div>
+            <div class="loading-gift-icon">🤍</div>
         </div>
         <div class="loading-badge-first">💌 Special Virtual Link</div>
         <div class="loading-title-first">Memuat Sesuatu yang special...</div>
         <div class="loading-subtitle-first" id="loadingStatusText">Menyiapkan kejutan spesial untuk Zaki...</div>
         <div class="percentage-text" id="loadingPercentText">0%</div>
         <div class="progress-track"><div class="progress-fill" id="loadingProgressFill"></div></div>
-        <button class="start-web-btn" id="startWebBtn" onclick="dismissLoading()">Buka Kejutan Ini 💖</button>
+        <button class="start-web-btn" id="startWebBtn" onclick="dismissLoading()">Buka Kejutan Ini 🤍</button>
     </div>
 
     <div class="bg-glow"></div>
@@ -340,16 +327,16 @@
 
         <div id="envelopeScreen" class="screen active">
             <div class="badge">💌 Special for You</div>
-            <div class="lock-title" style="margin-top:10px;">For Zaki ❤️</div>
+            <div class="lock-title" style="margin-top:10px;">For Zaki 🤍</div>
             <div class="lock-subtitle" style="margin-bottom:30px;">Terima kasih udah selalu ada, nemenin aku dari dulu sampai nanti kita bisa ketemu. ✨</div>
             <div class="envelope-container" onclick="openEnvelope()"><div class="envelope-box">💌</div></div>
-            <div style="font-size:12px; color:#fda4af; margin-top:15px; font-weight:600;">Ketuk amplopnya untuk buka 🔓</div>
+            <div style="font-size:12px; color:#ffffff; margin-top:15px; font-weight:600;">Ketuk amplopnya untuk buka 🔓</div>
         </div>
 
         <div id="lockScreen" class="screen">
             <div class="lock-icon">🔒</div>
             <div class="lock-title">Private Access</div>
-            <div class="lock-subtitle" id="lockSubtitle">Masukkan tanggal spesial kita / tanggal ultah (1109) 🔢</div>
+            <div class="lock-subtitle" id="lockSubtitle">Masukkan tanggal ultah kamu 🔢</div>
             <div class="pin-dots" id="pinDotsContainer">
                 <div class="pin-dot" id="dot0"></div><div class="pin-dot" id="dot1"></div>
                 <div class="pin-dot" id="dot2"></div><div class="pin-dot" id="dot3"></div>
@@ -368,29 +355,29 @@
                 <button class="num-btn" onclick="pressNum('0')">0</button>
                 <button class="num-btn" onclick="backspacePin()">⌫</button>
             </div>
-            <div style="margin-top:18px; font-size:11px; color:#fda4af; font-weight:600;" id="pinHintText">Ketik 4 digit PIN: 1109 🔑</div>
+            <div style="margin-top:18px; font-size:11px; color:#ffffff; font-weight:600;" id="pinHintText">Ketik 4 digit PIN: 1109 🔑</div>
         </div>
 
         <div id="gameScreen" class="screen">
             <div class="badge">🎮 Mini Game Virtual</div>
-            <div class="lock-title" style="margin-bottom:4px;">Tangkap 5 Cinta dari Aku! 💖</div>
+            <div class="lock-title" style="margin-bottom:4px;">Tangkap 5 Cinta dari Aku! 🤍</div>
             <div class="game-score" id="gameScoreText">Terkumpul: 0 / 5</div>
             <div class="game-area" id="gameArea"></div>
-            <div style="font-size:12px; color:#fda4af; font-weight:600;">Ketuk ikon cinta/bunga (❤️🌹✨🧸💌) sebanyak 5 kali ya!</div>
+            <div style="font-size:12px; color:#ffffff; font-weight:600;">Ketuk ikon cinta putih/bunga (🤍🌹✨🧸💌) sebanyak 5 kali ya!</div>
         </div>
 
         <div id="giftScreen" class="screen">
             <div class="badge">🎂 Special Birthday</div>
             <div class="lock-title" style="margin-bottom:6px;">Kejutan Spesial Buat Kamu! 🥰</div>
-            <div class="lock-subtitle" style="margin-bottom:25px;">Ketuk kue ulang tahun di bawah ini, Zaki! 🎂</div>
+            <div class="lock-subtitle" style="margin-bottom:25px;">Ketuk kue ulang tahun di bawah ini yaa! 🎂</div>
             <div class="cake-reveal-container" onclick="openGift()"><div class="big-animated-cake">🎂</div></div>
-            <div style="font-size:12px; color:#fda4af; margin-top:15px; font-weight:600;">Ketuk untuk melihat surat dari aku ✨</div>
+            <div style="font-size:12px; color:#ffffff; margin-top:15px; font-weight:600;">Ketuk untuk melihat surat dari aku ✨</div>
         </div>
 
         <div id="birthdayScreen" class="screen">
             <div class="celebration-banner-box">
                 <div class="celebration-title">✨ Happy Birthday Zaki ✨</div>
-                <div class="celebration-name">Zaki ❤️</div>
+                <div class="celebration-name">Zaki 🤍</div>
                 <div class="celebration-desc">Selamat bertambah usia ya. Semoga semua impianmu tercapai, dan kita bisa terus bareng-bareng saling nemenin sampai nanti suatu saat nanti kita bisa ketemu langsung! 🥰🌹</div>
             </div>
             <div class="nav-btn-container">
@@ -402,11 +389,11 @@
             <div class="badge" style="margin-bottom:12px;">💌 Surat Virtual Spesial</div>
             <div class="wish-screen-card">
                 <div class="wish-screen-content">
-                    <p><strong>Hai Zaki... ❤️</strong></p>
-                    <p>Selamat ulang tahun ya! Senang rasanya bisa ngerayain hari spesial kamu lewat cara sederhana ini. 🥺</p>
-                    <p>Semoga kamu sehat terus, panjang umur, banyak rezekinya dan kuliah juga kerja kamu selalu lancar ya. Dan semoga semua yang kamu inginkan terkabul, Aamin. Udah lama banget kita kenal dan saling nemenin tiap hari dari jauh. Terlepas dari jarak yang ada, aku bener-bener bersyukur punya kamu sebagai tempat cerita dan tempat pulang ternyaman waktu aku capek.</p>
-                    <p>Aku cuma mau kita terus bareng kayak gini, saling support, saling menguatkan, sampai nanti waktu itu beneran dateng dan kita akhirnya bisa ketemu. Semangat terus ya buat hari-hari kedepannya! ✨🫂</p>
-                    <div class="wish-signature">Dari aku dea cantik nan imyut 💖</div>
+                    <p><strong>Untuk Zaki, 🤍</strong></p>
+                    <p>Selamat ulang tahun ya, sayangku! Gak nyangka waktu cepet banget berlalu, dan sekarang kamu nambah satu tahun lagi usianya. Semoga di umur yang baru ini, kamu selalu dilimpahin kesehatan, dimudahin segala urusan kuliah/kerjaan, serta rezekinya makin lancar berkah. Aamiin.</p>
+                    <p>Meskipun sekarang kita masih terhalang jarak dan belum bisa merayakan langsung di tempat yang sama, aku pengen kamu tau kalau doa-doa terbaikku selalu ada buat kamu di setiap harinya. Terima kasih udah jadi paling sabar ngadepin aku.</p>
+                    <p>Tetap jadi Zaki yang aku kenal ya—baik, tulus, dan hebat. Peluk jauh dari sini untuk kamu. Semoga kita bisa segera dipertemukan dalam waktu dekat untuk merayakan semuanya secara langsung. I'm so proud of you, always! ✨🫂</p>
+                    <div class="wish-signature">Yang selalu sayang sama kamu, 🤍</div>
                 </div>
             </div>
             <div class="nav-btn-container">
@@ -418,9 +405,9 @@
 
             <div class="slide">
                 <div class="section-header">
-                    <div class="badge">💖 Virtual Space Kita</div>
-                    <h1 style="font-size:24px; color:#fce7f3;">Zaki & Aku 🌸</h1>
-                    <div style="margin-top:4px; font-size:12px; color:#fda4af; font-weight:600;">terus bareng sampai nanti kita ketemu ✨</div>
+                    <div class="badge">🤍 Virtual Space Kita</div>
+                    <h1 style="font-size:24px; color:#fce7f3;">Zaki dan dea imyut🌸</h1>
+                    <div style="margin-top:4px; font-size:12px; color:#ffffff; font-weight:600;">terus bareng sampai nanti kita ketemu ✨</div>
                 </div>
                 <div class="music-player-card">
                     <div class="vinyl-disc" id="vinylDisc">🎵</div>
@@ -436,33 +423,15 @@
             <div class="slide">
                 <div class="card-box" style="text-align:center;">
                     <div class="badge" style="margin-bottom:4px;">Virtual Note 🧸</div>
-                    <h3 style="font-family:'Outfit',sans-serif; font-size:17px; margin-bottom:4px;">Lagi ngerasa apa hari ini? 💭</h3>
-                    <p style="font-size:11.5px; color:#f472b6; margin-bottom:6px;">Pilih tombol di bawah buat dapet pesan khusus dari aku! 👇</p>
+                    <h3 style="font-family:'Outfit',sans-serif; font-size:17px; margin-bottom:4px;">Bagaimana perasaanmu hari ini? 💭</h3>
+                    <p style="font-size:11.5px; color:#f472b6; margin-bottom:6px;">Sentuh tombol di bawah untuk melihat pesan khusus dari aku buat kamu! 👇</p>
                     <div class="vibe-grid">
-                        <button class="vibe-btn" onclick="showVibe('sendiri')">🥺 Lagi sendiri</button>
-                        <button class="vibe-btn" onclick="showVibe('capek')">💪 Lagi Capek/Stres</button>
-                        <button class="vibe-btn" onclick="showVibe('semangat')">🔥 Butuh Semangat</button>
-                        <button class="vibe-btn" onclick="showVibe('sayang')">💖 Pesan Tulus</button>
+                        <button class="vibe-btn" onclick="showVibe('sendiri')">🥺 Lagi Pengen Sendiri</button>
+                        <button class="vibe-btn" onclick="showVibe('lelah')">💪 Lagi Lelah/Beban</button>
+                        <button class="vibe-btn" onclick="showVibe('bahagia')">🎉 Lagi Happy/Seru</button>
+                        <button class="vibe-btn" onclick="showVibe('cinta')">🤍 Pesan Romantis</button>
                     </div>
-                    <div class="interactive-box" id="vibeMsg">"Pilih salah satu tombol di atas ya, Zaki! 🥰"</div>
-                </div>
-                <div class="slide-hint">↓ geser kebawah ya</div>
-            </div>
-
-            <div class="slide">
-                <div class="section-header" style="margin-bottom:14px;">
-                    <div class="badge">📸 Virtual Memories</div>
-                    <h2 style="font-family:'Outfit',sans-serif; font-size:18px; color:#fce7f3;">Momen Jarak Jauh Kita 💕</h2>
-                </div>
-                <div class="polaroid-grid">
-                    <div class="polaroid">
-                        <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=600&q=80" alt="Sweet Moment">
-                        <div class="polaroid-caption">Begadang & Video Call Nights 🌙✨</div>
-                    </div>
-                    <div class="polaroid">
-                        <img src="https://images.unsplash.com/photo-1494774157365-9e04c6720e47?auto=format&fit=crop&w=600&q=80" alt="Close">
-                        <div class="polaroid-caption">Saling ada dan nemenin terus 🥺❤️</div>
-                    </div>
+                    <div class="interactive-box" id="vibeMsg">"Pilih salah satu tombol di atas yaa! 🥰"</div>
                 </div>
                 <div class="slide-hint">↓ geser kebawah ya</div>
             </div>
@@ -470,21 +439,22 @@
             <div class="slide">
                 <div class="card-box">
                     <div class="badge" style="margin-bottom:8px;">🫙 Wish Jar Kita</div>
-                    <h3 style="font-family:'Outfit',sans-serif; font-size:15px; margin-bottom:4px; text-align:center;">Tulis Harapan / Keinginan Kamu  Di Masa Depan ✨</h3>
+                    <h3 style="font-family:'Outfit',sans-serif; font-size:15px; margin-bottom:4px; text-align:center;">Tulis Harapan / Keinginan Kamu Di Masa Depan ✨</h3>
                     <div class="jar-wrap">
                         <div class="jar-counter" id="jarCounter">0 harapan tersimpan 📝</div>
                         <div class="jar-visual">
                             <div class="jar-lid"></div>
                             <div class="jar-neck"></div>
                             <div class="jar-body" id="jarContainer">
-                                <div class="jar-empty-label" id="jarLabelText">Jar masih kosong ❤️ yuk tulis harapan kamu!</div>
+                                <div class="jar-empty-label" id="jarLabelText">Jar masih kosong 🤍 yuk tulis harapan kamu!</div>
                             </div>
                         </div>
                     </div>
                     <input type="text" class="input-custom" id="wishInput" placeholder="Contoh: Semoga kita bisa segera ketemu & jalan bareng! 🥰">
                     <div style="display:flex; gap:8px; margin-bottom:6px;">
-                        <button class="primary-btn" onclick="addWish()" style="padding:11px 16px; font-size:13px; flex:2;">Masukkan ke Jar 💖</button>
-                        <button class="primary-btn" onclick="clearJar()" style="padding:11px 16px; font-size:13px; flex:1; background: linear-gradient(135deg,#4c1d95,#3b0764); box-shadow: 0 4px 15px rgba(0,0,0,0.3);">Reset 🗑️</button>
+                        <button class="primary-btn" onclick="addWish()" style="padding:11px 12px; font-size:12px; flex:2;">Masukkan ke Jar 🤍</button>
+                        <button class="primary-btn" onclick="downloadAllWishes()" style="padding:11px 10px; font-size:11px; flex:1.5; background: linear-gradient(135deg,#0d9488,#0f766e); color:#fff;">Unduh Jar 📥</button>
+                        <button class="primary-btn" onclick="clearJar()" style="padding:11px 10px; font-size:11px; flex:1; background: linear-gradient(135deg,#4c1d95,#3b0764); color:#fff;">Reset 🗑️</button>
                     </div>
                     <div class="wish-list" id="wishList"></div>
                 </div>
@@ -498,7 +468,7 @@
 <script>
     function fireConfetti(count) {
         count = count || 60;
-        const colors = ['#f43f5e', '#fb7185', '#ffffff', '#fda4af', '#f472b6'];
+        const colors = ['#ffffff', '#e2e8f0', '#cbd5e1', '#f1f5f9', '#94a3b8'];
         for (let i = 0; i < count; i++) {
             const c = document.createElement('div');
             c.style.position = 'fixed';
@@ -522,45 +492,87 @@
 
     const loadingProgressFill = document.getElementById('loadingProgressFill');
     const loadingPercentText = document.getElementById('loadingPercentText');
-    const startWebBtn = document.getElementById('startWebBtn');
     const loadingStatusText = document.getElementById('loadingStatusText');
+    const startWebBtn = document.getElementById('startWebBtn');
     const loadingScreen = document.getElementById('loadingScreen');
 
-    let currentProgress = 0;
-    const loadingInterval = setInterval(() => {
-        currentProgress += Math.floor(Math.random() * 8) + 3;
-        if (currentProgress >= 100) {
-            currentProgress = 100;
-            clearInterval(loadingInterval);
+    let loadProgress = 0;
+    const loadInterval = setInterval(() => {
+        loadProgress += Math.floor(Math.random() * 8) + 3;
+        if (loadProgress >= 100) {
+            loadProgress = 100;
+            clearInterval(loadInterval);
             loadingPercentText.innerText = "100%";
             loadingProgressFill.style.width = "100%";
-            loadingStatusText.innerText = "Kejutan spesial buat Zaki sudah siap! ❤️";
+            loadingStatusText.innerText = "Semua kejutan siap untuk Zaki! ✨";
             startWebBtn.classList.add('show');
-            fireConfetti(40);
         } else {
-            loadingPercentText.innerText = currentProgress + "%";
-            loadingProgressFill.style.width = currentProgress + "%";
+            loadingPercentText.innerText = loadProgress + "%";
+            loadingProgressFill.style.width = loadProgress + "%";
+            if(loadProgress > 70) loadingStatusText.innerText = "Sedikit lagi ya, Zaki...";
         }
-    }, 120);
+    }, 60);
 
     function dismissLoading() {
         loadingScreen.style.opacity = '0';
         loadingScreen.style.visibility = 'hidden';
-        initFloatingElements();
+        createFloatingParticles();
+        tryPlayMusic();
     }
 
-    function initFloatingElements() {
+    function createFloatingParticles() {
         const container = document.getElementById('floatingElements');
-        const emojis = ['❤️', '💖', '✨', '🌹', '🧸', '💌', '🥰'];
+        const emojis = ['🤍', '✨', '🌹', '🧸', '💌'];
         setInterval(() => {
             const item = document.createElement('div');
             item.className = 'float-item';
             item.innerText = emojis[Math.floor(Math.random() * emojis.length)];
             item.style.left = Math.random() * 100 + 'vw';
-            item.style.animationDuration = (6 + Math.random() * 4) + 's';
+            item.style.animationDuration = (5 + Math.random() * 4) + 's';
+            item.style.fontSize = (18 + Math.random() * 14) + 'px';
             container.appendChild(item);
-            setTimeout(() => item.remove(), 10000);
-        }, 500);
+            setTimeout(() => item.remove(), 9000);
+        }, 600);
+    }
+
+    function showToast(msg) {
+        const t = document.getElementById('toastNotif');
+        t.innerText = msg;
+        t.classList.add('show');
+        setTimeout(() => t.classList.remove('show'), 2500);
+    }
+
+    const bgMusic = document.getElementById('bgMusic');
+    const vinylDisc = document.getElementById('vinylDisc');
+    const playBtn = document.getElementById('playBtn');
+    const musicStatus = document.getElementById('musicStatus');
+    let isPlaying = false;
+
+    function tryPlayMusic() {
+        bgMusic.volume = 0.5;
+        bgMusic.play().then(() => {
+            isPlaying = true;
+            vinylDisc.classList.add('playing');
+            playBtn.innerText = "❚❚";
+            musicStatus.innerText = "Sedang Memutar Lagu Romantis 🎶";
+        }).catch(() => {});
+    }
+
+    function toggleMusic() {
+        if (isPlaying) {
+            bgMusic.pause();
+            isPlaying = false;
+            vinylDisc.classList.remove('playing');
+            playBtn.innerText = "▶";
+            musicStatus.innerText = "Musik dijeda 🎧";
+        } else {
+            bgMusic.play().then(() => {
+                isPlaying = true;
+                vinylDisc.classList.add('playing');
+                playBtn.innerText = "❚❚";
+                musicStatus.innerText = "Sedang Memutar Lagu Romantis 🎶";
+            });
+        }
     }
 
     function switchScreen(fromId, toId) {
@@ -569,17 +581,38 @@
     }
 
     function openEnvelope() {
-        fireConfetti(30);
         switchScreen('envelopeScreen', 'lockScreen');
     }
 
-    let enteredPin = "";
+    let currentPin = "";
     const correctPin = "1109";
+
+    function pressNum(num) {
+        if (currentPin.length < 4) {
+            currentPin += num;
+            updatePinDots();
+            if (currentPin.length === 4) {
+                setTimeout(verifyPin, 200);
+            }
+        }
+    }
+
+    function backspacePin() {
+        if (currentPin.length > 0) {
+            currentPin = currentPin.slice(0, -1);
+            updatePinDots();
+        }
+    }
+
+    function clearPin() {
+        currentPin = "";
+        updatePinDots();
+    }
 
     function updatePinDots() {
         for (let i = 0; i < 4; i++) {
             const dot = document.getElementById('dot' + i);
-            if (i < enteredPin.length) {
+            if (i < currentPin.length) {
                 dot.classList.add('filled');
             } else {
                 dot.classList.remove('filled');
@@ -587,40 +620,21 @@
         }
     }
 
-    function pressNum(num) {
-        if (enteredPin.length < 4) {
-            enteredPin += num;
-            updatePinDots();
-            if (enteredPin.length === 4) {
-                setTimeout(verifyPin, 250);
-            }
-        }
-    }
-
-    function backspacePin() {
-        if (enteredPin.length > 0) {
-            enteredPin = enteredPin.slice(0, -1);
-            updatePinDots();
-        }
-    }
-
-    function clearPin() {
-        enteredPin = "";
-        updatePinDots();
-    }
-
     function verifyPin() {
-        if (enteredPin === correctPin) {
-            fireConfetti(50);
-            switchScreen('lockScreen', 'gameScreen');
-            initMiniGame();
-        } else {
-            const dots = document.getElementById('pinDotsContainer');
-            dots.classList.add('error-shake');
-            document.getElementById('pinHintText').innerText = "PIN Salah! Coba lagi ya (1109) ❌";
+        if (currentPin === correctPin) {
+            showToast("✨ PIN Benar! Membuka game...");
+            fireConfetti(40);
             setTimeout(() => {
-                dots.classList.remove('error-shake');
-                enteredPin = "";
+                switchScreen('lockScreen', 'gameScreen');
+                initGame();
+            }, 600);
+        } else {
+            showToast("❌ PIN Salah, coba 1109 ya!");
+            const container = document.getElementById('pinDotsContainer');
+            container.classList.add('error-shake');
+            setTimeout(() => {
+                container.classList.remove('error-shake');
+                currentPin = "";
                 updatePinDots();
             }, 400);
         }
@@ -630,300 +644,232 @@
     const targetScore = 5;
     let gameInterval = null;
 
-    function initMiniGame() {
+    function initGame() {
         gameScore = 0;
         document.getElementById('gameScoreText').innerText = `Terkumpul: ${gameScore} / ${targetScore}`;
         const area = document.getElementById('gameArea');
         area.innerHTML = '';
-
-        const gameEmojis = ['❤️', '🌹', '✨', '🧸', '💌'];
-
+        
         gameInterval = setInterval(() => {
             if (gameScore >= targetScore) return;
-            const el = document.createElement('div');
-            el.className = 'falling-item';
-            el.innerText = gameEmojis[Math.floor(Math.random() * gameEmojis.length)];
-            el.style.left = Math.random() * (area.clientWidth - 40) + 'px';
-            const duration = 2.5 + Math.random() * 1.5;
-            el.style.animationDuration = duration + 's';
-
-            el.addEventListener('click', () => {
+            const item = document.createElement('div');
+            item.className = 'falling-item';
+            const icons = ['🤍', '🌹', '✨', '🧸', '💌'];
+            item.innerText = icons[Math.floor(Math.random() * icons.length)];
+            item.style.left = Math.random() * 80 + '%';
+            item.style.animationDuration = (2.5 + Math.random() * 1.5) + 's';
+            
+            item.onclick = () => {
                 gameScore++;
-                fireConfetti(15);
                 document.getElementById('gameScoreText').innerText = `Terkumpul: ${gameScore} / ${targetScore}`;
-                el.remove();
+                item.remove();
                 if (gameScore >= targetScore) {
                     clearInterval(gameInterval);
+                    area.innerHTML = '<div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-family:Outfit;font-size:18px;color:#fce7f3;font-weight:700;text-align:center;">Yeay Berhasil! 🎉 Menuju kejutan utama...</div>';
+                    fireConfetti(80);
                     setTimeout(() => {
                         switchScreen('gameScreen', 'giftScreen');
-                        fireConfetti(60);
-                    }, 400);
+                    }, 1200);
                 }
-            });
-
-            area.appendChild(el);
-            setTimeout(() => { if (el.parentNode) el.remove(); }, duration * 1000);
-        }, 600);
+            };
+            
+            area.appendChild(item);
+            setTimeout(() => { if(item.parentNode) item.remove(); }, 3500);
+        }, 700);
     }
 
     function openGift() {
-        fireConfetti(70);
+        fireConfetti(100);
         switchScreen('giftScreen', 'birthdayScreen');
     }
 
     function goToWishScreen() {
         switchScreen('birthdayScreen', 'wishScreen');
-        fireConfetti(40);
     }
 
     function goToMainDashboard() {
-        document.getElementById('wishScreen').classList.remove('active');
-        document.getElementById('mainContent').classList.add('active');
-        fireConfetti(80);
-    }
-
-    const bgMusic = document.getElementById('bgMusic');
-    const vinylDisc = document.getElementById('vinylDisc');
-    const playBtn = document.getElementById('playBtn');
-    const musicStatus = document.getElementById('musicStatus');
-    let isPlaying = false;
-
-    function toggleMusic() {
-        if (!isPlaying) {
-            bgMusic.play().then(() => {
-                isPlaying = true;
-                vinylDisc.classList.add('playing');
-                playBtn.innerText = "⏸";
-                musicStatus.innerText = "Memutar lagu spesial kita 🎶";
-                showToast("🎵 Musik diputar!");
-            }).catch(e => {
-                showToast("Gagal memutar audio otomatis.");
-            });
-        } else {
-            bgMusic.pause();
-            isPlaying = false;
-            vinylDisc.classList.remove('playing');
-            playBtn.innerText = "▶";
-            musicStatus.innerText = "Ketuk Play untuk putar musik 🎧";
-            showToast("⏸ Musik dijeda.");
-        }
+        switchScreen('wishScreen', 'mainContent');
+        fireConfetti(50);
     }
 
     function showVibe(type) {
-        const box = document.getElementById('vibeMsg');
+        const msgBox = document.getElementById('vibeMsg');
         const messages = {
-            sendiri: "🥺 Kalau kamu lagi ada hal yang bikin kamu seneng, sedih atau marah, kamu bisa cerita ke aku. Aku selalu siap dengerin cerita kamu! 🫂❤️",
-            capek: "💪 Capek ya hari ini? Istirahat dulu, Zaki. Jangan terlalu diporsir ya, aku selalu Support kamu dari sini! ☕✨",
-            semangat: "🔥 Semangat terus ya! Apapun keadaannya, kita tetep saling nemenin dan jalan bareng sampai nanti ketemu. 🚀🥰",
-            sayang: "💖 Makasih ya udah selalu nemenin aku dari dulu. Kehadiran kamu itu bener-bener berarti banget buat aku. 🌹"
+            sendiri: "🥺 Kalo kamu ada cerita atau masalah, jangan lupa cerita ke aku yaa! 🤍",
+            lelah: "💪 Kalau hari ini beban kuliah atau kerjaan bikin Zaki capek, istirahat dulu ya. Jangan diporsir terus. Ingat ada aku di sini yang selalu bangga sama kerja keras kamu setiap hari! 🫂",
+            bahagia: "🎉 Yeay! Ikut senang kalau hari ini Zaki lagi happy dan seru harinya. Pertahankan senyum itu ya, karena senyum adalah ibadah haha! ✨🥰",
+            cinta: "🤍 Zaki, terima kasih ya udah bertahan sejauh ini jadi orang paling berarti di hidup aku. Apapun kondisinya, aku bakal selalu ada buat nemenin kamu dari sini sampai gatau kapan. hehe! 🌹"
         };
-        box.innerText = messages[type];
-        fireConfetti(20);
-        showToast("💌 Pesan untuk kamu!");
+        msgBox.style.opacity = 0;
+        setTimeout(() => {
+            msgBox.innerText = messages[type];
+            msgBox.style.opacity = 1;
+            fireConfetti(20);
+        }, 200);
     }
 
     let wishes = [];
 
     function addWish() {
         const input = document.getElementById('wishInput');
-        const text = input.value.trim();
-        if (!text) {
-            showToast("⚠️ Ketik harapan atau keinginan dulu ya!");
+        const val = input.value.trim();
+        if(!val) {
+            showToast("⚠️ Tulis harapannya dulu ya, Zaki!");
             return;
         }
-
-        wishes.push(text);
+        wishes.push(val);
         input.value = "";
-        updateJar();
+        updateJarUI();
+        showToast("🤍 Harapan berhasil dimasukkan ke Jar!");
         fireConfetti(25);
-        showToast("✨ Harapan berhasil dimasukkan ke Jar!");
     }
 
     function clearJar() {
         wishes = [];
-        updateJar();
-        showToast("🗑️ Jar berhasil direset.");
+        updateJarUI();
+        showToast("🗑️ Wish Jar berhasil direset.");
     }
 
-    function updateJar() {
-        const container = document.getElementById('jarContainer');
-        const counter = document.getElementById('jarCounter');
-        const label = document.getElementById('jarLabelText');
-        const list = document.getElementById('wishList');
+    function updateJarUI() {
+        const jarContainer = document.getElementById('jarContainer');
+        const jarCounter = document.getElementById('jarCounter');
+        const jarLabelText = document.getElementById('jarLabelText');
+        const wishList = document.getElementById('wishList');
 
-        container.querySelectorAll('.jar-paper').forEach(el => el.remove());
-        list.innerHTML = '';
+        jarCounter.innerText = `${wishes.length} harapan tersimpan 📝`;
+        wishList.innerHTML = '';
+
+        const oldPapers = jarContainer.querySelectorAll('.jar-paper');
+        oldPapers.forEach(p => p.remove());
 
         if (wishes.length === 0) {
-            if (label) label.style.display = 'block';
-            counter.innerText = "0 harapan tersimpan 📝";
-            return;
+            jarLabelText.style.display = 'block';
+        } else {
+            jarLabelText.style.display = 'none';
+            wishes.forEach((w, index) => {
+                if(index < 7) {
+                    const paper = document.createElement('div');
+                    paper.className = 'jar-paper';
+                    paper.style.setProperty('--rand', Math.random());
+                    paper.innerText = w;
+                    jarContainer.appendChild(paper);
+                }
+
+                const itemCard = document.createElement('div');
+                itemCard.className = 'downloadable-wish-card';
+                itemCard.innerHTML = `
+                    <div class="wish-card-text" title="${w}">${index+1}. ${w}</div>
+                    <button class="download-single-btn" onclick="downloadSingleWish(${index})">Unduh 📥</button>
+                `;
+                wishList.appendChild(itemCard);
+            });
         }
-
-        if (label) label.style.display = 'none';
-        counter.innerText = `${wishes.length} harapan tersimpan 📝`;
-
-        wishes.forEach((w, index) => {
-            const paper = document.createElement('div');
-            paper.className = 'jar-paper';
-            paper.style.setProperty('--rand', Math.random());
-            paper.innerText = w;
-            container.appendChild(paper);
-
-            const card = document.createElement('div');
-            card.className = 'downloadable-wish-card';
-            card.innerHTML = `
-                <div class="wish-card-text">💖 ${w}</div>
-                <button class="download-single-btn" onclick="exportJarImage(${index})">Simpan Jar 📥</button>
-            `;
-            list.appendChild(card);
-        });
     }
 
-    function exportJarImage(index) {
-        const targetWish = wishes[index];
+    function downloadSingleWish(index) {
+        const text = wishes[index];
         const canvas = document.getElementById('exportCanvas');
         const ctx = canvas.getContext('2d');
 
-        ctx.fillStyle = '#140a18';
+        ctx.fillStyle = "#140a18";
         ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-        ctx.strokeStyle = '#f43f5e';
+        ctx.strokeStyle = "#ffffff";
         ctx.lineWidth = 6;
-        ctx.strokeRect(25, 25, canvas.width - 50, canvas.height - 50);
+        ctx.strokeRect(30, 30, canvas.width - 60, canvas.height - 60);
 
-        ctx.fillStyle = '#fda4af';
-        ctx.font = 'bold 20px Outfit, sans-serif';
-        ctx.textAlign = 'center';
-        ctx.fillText("💌 Zaki & Aku Wish Jar 💖", canvas.width / 2, 75);
+        ctx.fillStyle = "#2d0c1e";
+        ctx.fillRect(50, 50, canvas.width - 100, canvas.height - 100);
 
-        const jarX = canvas.width / 2 - 100;
-        const jarY = 110;
-        const jarW = 200;
-        const jarH = 220;
+        ctx.fillStyle = "#ffffff";
+        ctx.font = "bold 20px 'Outfit', sans-serif";
+        ctx.textAlign = "center";
+        ctx.fillText("✨ WISH JAR KITA ✨", canvas.width / 2, 110);
 
-        ctx.fillStyle = '#e11d48';
-        roundRect(ctx, jarX + 60, jarY, 80, 20, 6, true);
+        ctx.fillStyle = "#fce7f3";
+        ctx.font = "18px 'Plus Jakarta Sans', sans-serif";
+        wrapText(ctx, `"${text}"`, canvas.width / 2, 230, canvas.width - 160, 30);
+
+        ctx.fillStyle = "#cbd5e1";
+        ctx.font = "bold 16px 'Outfit', sans-serif";
+        ctx.fillText("Special Birthday Wish - Zaki 🤍", canvas.width / 2, canvas.height - 100);
+
+        triggerCanvasDownload(canvas, `Wish-Zaki-${index+1}.png`);
+    }
+
+    function downloadAllWishes() {
+        if(wishes.length === 0) {
+            showToast("⚠️ Belum ada harapan di dalam jar!");
+            return;
+        }
+        const canvas = document.getElementById('exportCanvas');
+        const ctx = canvas.getContext('2d');
+
+        ctx.fillStyle = "#140a18";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        ctx.strokeStyle = "#ffffff";
+        ctx.lineWidth = 6;
+        ctx.strokeRect(30, 30, canvas.width - 60, canvas.height - 60);
+
+        ctx.fillStyle = "#2d0c1e";
+        ctx.fillRect(50, 50, canvas.width - 100, canvas.height - 100);
+
+        ctx.fillStyle = "#ffffff";
+        ctx.font = "bold 22px 'Outfit', sans-serif";
+        ctx.textAlign = "center";
+        ctx.fillText("🫙 KUMPULAN WISH JAR KITA ✨", canvas.width / 2, 90);
+
+        ctx.textAlign = "left";
+        ctx.font = "14px 'Plus Jakarta Sans', sans-serif";
+        let startY = 140;
         
-        ctx.fillStyle = '#fce7f3';
-        ctx.font = 'bold 16px sans-serif';
-        ctx.fillText("❤️", canvas.width / 2, jarY + 15);
-
-        ctx.fillStyle = 'rgba(244,63,94,0.4)';
-        ctx.fillRect(jarX + 75, jarY + 20, 50, 10);
-
-        ctx.save();
-        ctx.beginPath();
-        ctx.moveTo(jarX + 75, jarY + 30);
-        ctx.lineTo(jarX + 125, jarY + 30);
-        ctx.quadraticCurveTo(jarX + jarW, jarY + 30, jarX + jarW, jarY + 80);
-        ctx.lineTo(jarX + jarW, jarY + jarH - 30);
-        ctx.quadraticCurveTo(jarX + jarW, jarY + jarH, jarX + jarW - 30, jarY + jarH);
-        ctx.lineTo(jarX + 30, jarY + jarH);
-        ctx.quadraticCurveTo(jarX, jarY + jarH, jarX, jarY + jarH - 30);
-        ctx.lineTo(jarX, jarY + 80);
-        ctx.quadraticCurveTo(jarX, jarY + 30, jarX + 75, jarY + 30);
-        ctx.closePath();
-
-        ctx.fillStyle = 'rgba(45, 12, 30, 0.85)';
-        ctx.fill();
-        ctx.lineWidth = 4;
-        ctx.strokeStyle = 'rgba(244,63,94,0.5)';
-        ctx.stroke();
-        ctx.clip();
-
-        ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
-        ctx.fillRect(jarX + 15, jarY + 40, 18, jarH - 60);
-
-        const visibleWishes = wishes.slice(0, 7);
-        let paperStartY = jarY + jarH - 35;
-        
-        visibleWishes.forEach((wText, idx) => {
-            ctx.save();
-            ctx.translate(canvas.width / 2, paperStartY);
-            ctx.rotate((idx % 2 === 0 ? 1 : -1) * 0.05);
-
-            if (idx % 3 === 0) ctx.fillStyle = '#2d0c1e';
-            else if (idx % 3 === 1) ctx.fillStyle = '#1f1124';
-            else ctx.fillStyle = '#3b071d';
-
-            roundRect(ctx, -75, -14, 150, 26, 8, true);
-            ctx.lineWidth = 1.5;
-            ctx.strokeStyle = 'rgba(244,63,94,0.4)';
-            ctx.stroke();
-
-            ctx.fillStyle = '#fce7f3';
-            ctx.font = 'bold 11px Plus Jakarta Sans, sans-serif';
-            ctx.textAlign = 'center';
-            let shortText = wText.length > 20 ? wText.substring(0, 18) + '...' : wText;
-            ctx.fillText(shortText, 0, 3);
-
-            ctx.restore();
-            paperStartY -= 28;
+        wishes.forEach((w, idx) => {
+            if(idx < 10) {
+                ctx.fillStyle = "#fbcfe8";
+                ctx.fillText(`${idx + 1}. ${w}`, 80, startY);
+                startY += 36;
+            }
         });
 
-        ctx.restore();
+        if(wishes.length > 10) {
+            ctx.fillStyle = "#ffffff";
+            ctx.fillText(`...dan ${wishes.length - 10} harapan lainnya! 🤍`, 80, startY);
+        }
 
-        ctx.fillStyle = '#fda4af';
-        ctx.font = 'bold 16px Outfit, sans-serif';
-        ctx.textAlign = 'center';
-        ctx.fillText(`Harapan Terpilih #${index + 1}:`, canvas.width / 2, 385);
+        ctx.textAlign = "center";
+        ctx.fillStyle = "#cbd5e1";
+        ctx.font = "bold 15px 'Outfit', sans-serif";
+        ctx.fillText("Happy Birthday Zaki! Semoga semua terwujud. 🥰", canvas.width / 2, canvas.height - 80);
 
-        ctx.fillStyle = '#fbcfe8';
-        ctx.font = '14px Plus Jakarta Sans, sans-serif';
-        wrapText(ctx, `"${targetWish}"`, canvas.width / 2, 420, canvas.width - 100, 24);
-
-        ctx.fillStyle = '#f472b6';
-        ctx.font = 'bold 15px Outfit, sans-serif';
-        ctx.fillText("Happy Birthday Zaki! ❤️", canvas.width / 2, canvas.height - 65);
-
-        const link = document.createElement('a');
-        link.download = `Zaki_Birthday_Jar_${index + 1}.png`;
-        link.href = canvas.toDataURL('image/png');
-        link.click();
-        showToast("📥 Gambar Jar Harapan berhasil disimpan!");
+        triggerCanvasDownload(canvas, `Semua-Wish-Jar-Zaki.png`);
     }
 
-    function roundRect(ctx, x, y, width, height, radius, fill) {
-        ctx.beginPath();
-        ctx.moveTo(x + radius, y);
-        ctx.lineTo(x + width - radius, y);
-        ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
-        ctx.lineTo(x + width, y + height - radius);
-        ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
-        ctx.lineTo(x + radius, y + height);
-        ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
-        ctx.lineTo(x, y + radius);
-        ctx.quadraticCurveTo(x, y, x + radius, y);
-        ctx.closePath();
-        if (fill) ctx.fill();
-    }
-
-    function wrapText(context, text, x, y, maxWidth, lineHeight) {
+    function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
         const words = text.split(' ');
         let line = '';
         for(let n = 0; n < words.length; n++) {
             const testLine = line + words[n] + ' ';
-            const metrics = context.measureText(testLine);
+            const metrics = ctx.measureText(testLine);
             const testWidth = metrics.width;
             if (testWidth > maxWidth && n > 0) {
-                context.fillText(line, x, y);
+                ctx.fillText(line, x, y);
                 line = words[n] + ' ';
                 y += lineHeight;
             } else {
                 line = testLine;
             }
         }
-        context.fillText(line, x, y);
+        ctx.fillText(line, x, y);
     }
 
-    function showToast(msg) {
-        const t = document.getElementById('toastNotif');
-        t.innerText = msg;
-        t.classList.add('show');
-        setTimeout(() => {
-            t.classList.remove('show');
-        }, 2500);
+    function triggerCanvasDownload(canvas, filename) {
+        const link = document.createElement('a');
+        link.download = filename;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+        showToast("📥 Berhasil mengunduh gambar!");
+        fireConfetti(30);
     }
 </script>
 </body>
